@@ -7,3 +7,8 @@ function updatePlaylist(obj, artist, song){
   return playlist;
   
 }
+
+function removeFromPlaylist(obj, artist){
+  
+  
+}
