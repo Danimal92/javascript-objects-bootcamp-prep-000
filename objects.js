@@ -9,8 +9,7 @@ function updatePlaylist(obj, artist, song){
 }
 
 function removeFromPlaylist(obj, artist){
-  var poop = obj;
-  delete poop.artist;
-  return poop;
+  
+  
   
 }
