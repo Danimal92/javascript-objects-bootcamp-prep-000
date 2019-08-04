@@ -1,14 +1,14 @@
 var playlist = {michael_jackson : 'beat it' }
 
-function updatePlaylist(obj, artist, song){
+function updatePlaylist(playlist, artist, song){
   
-  Object.assign( obj, {[artist]:song});
+  Object.assign( playlist, {[artist]:song});
   console.log(playlist)
-  return obj;
+  return playlist;
   
 }
 
-function removeFromPlaylist(obj, artist){
+function removeFromPlaylist(playlist, artist){
   
   
   
